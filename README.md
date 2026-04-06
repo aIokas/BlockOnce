@@ -1,13 +1,25 @@
-# BlockOnce y como usarlo
-BlockOnce es un programa que hace un bloqueo en el Firewall en cualquier ".exe", aqui una guia de como usarlo:
+# BlockOnce – Firewall App Blocker
 
-- Asegurate de iniciar el programa en modo administrador.
-- Clickea en el boton "°°°" para seleccionar un directorio.
-- Despues de eso, el directorio sera seleccionado, solo dale click a "Iniciar" para hacer la excepcion.
+BlockOnce is a simple GUI tool that allows blocking executable files (.exe) using system firewall rules.
 
-# BlockOnce and how to use it
-BlockOnce is a tool that makes a Firewall exception on any ".exe", here is how to use it:
+## Overview
 
-- Be sure to start the program in administrator mode.
-- Click in the "°°°" button and select a path.
-- After that, the path will be selected, just click "Iniciar" to make the exception.
+This project combines a Python-based graphical interface with system-level scripting to automate the creation of firewall rules. It is designed to simplify the process of blocking applications without manually interacting with the firewall configuration.
+
+## How it works
+
+The application takes a selected executable path and applies a firewall rule through system commands, effectively blocking its network access.
+
+## Usage
+
+- Run the application as administrator
+- Click the "..." button to select an executable
+- Click "Iniciar" to apply the firewall rule
+
+## Requirements
+- Administrator privileges
+- Compatible firewall system (Windows Firewall)
+
+## Notes
+This project was developed as a learning exercise focused on automation and system interaction.
+Code structure prioritizes simplicity over scalability.
